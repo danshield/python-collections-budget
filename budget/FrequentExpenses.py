@@ -1,4 +1,8 @@
 from . import Expense
 
-expenses = Expense()
-expenses.read_expenses('data/spending_data.csv')
+expense = Expense()
+expense.read_expenses("data/spending_data.csv")
+
+
+
+
